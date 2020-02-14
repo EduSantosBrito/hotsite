@@ -6,7 +6,6 @@ services:
       dockerfile: dev.Dockerfile
     environment: 
       NODE_ENV: development
-      BROWSER: none
     ports:
       - "3000:3000"
     volumes: 
