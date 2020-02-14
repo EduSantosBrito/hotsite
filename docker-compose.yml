@@ -1,8 +1,8 @@
-version: "3.7"
+version: '3.7'
 services:
-  client:
-    build: .
-    environment: 
-      NODE_ENV: production
-    ports:
-      - "80:80"
+    client:
+        build: .
+        environment:
+            NODE_ENV: production
+        ports:
+            - '9000:80'
