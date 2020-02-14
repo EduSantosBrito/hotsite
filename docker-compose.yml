@@ -5,4 +5,4 @@ services:
         environment:
             NODE_ENV: production
         ports:
-            - '9000:80'
+            - '9000:443'
